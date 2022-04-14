@@ -1,0 +1,20 @@
+//Nie wiem jakie tam se macie zmienne ale musicie w algorytmie dodać coś takiego żeby testować
+//poprawność działania. Pseudo kod nadciąga bo nie wiem jak inaczej to przedstawić.
+
+//dodać zmienną counter do zliczania ilości wystąpień
+int counter = 0;
+int letter_counter = 0;
+
+//w funkcji, w razie wystąpienia szukanego słowa/ciągu w tym ifie co to sprawdza dodać wzmiankę:
+
+counter++;
+for(int i=0; i < długość_ciągu; i++)
+{
+//zgaduje że przechowujecie ten ciąg jako tablice charów więc zaraz po counterze go wypisujemy
+	cout<<ciąg[i];
+	letter_counter++;
+}
+cout<<"To "<<counter<<"odnaleziony ciag"<<", wystepuja w nim "<<letter_counter<<" litery."<<endl;
+
+//Dzięki temu wypisze nam się liczba ciągów które odnajdujemy aktualizowana z każdym wystąpieniem, oraz
+//sprawdzimy czy ciągi które znajdujemy są faktycznie tymi których szukamy i czy mają odpowiednią liczbę liter. 

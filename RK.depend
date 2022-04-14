@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1649490308 source:c:\users\szymo\desktop\is\semestr ii\np\projekt\main.cpp
+	<iostream>
+	<cstring>
+	<fstream>
+	<chrono>
+

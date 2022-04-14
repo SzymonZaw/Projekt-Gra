@@ -1,0 +1,25 @@
+#include <algorithm>
+#include <chrono>
+#include <iostream>
+
+using namespace std;
+using namespace std::chrono;
+
+int main()
+{
+
+auto start = high_resolution_clock::now();
+
+//Początek funkcji
+
+//Koniec Funkcji
+
+auto stop = high_resolution_clock::now();
+
+auto duration = duration_cast<milliseconds>(stop - start);
+
+cout << "Funkcja działała przez: "<< duration.count() << " milisekund." << endl;
+ 
+    return 0;
+
+}
